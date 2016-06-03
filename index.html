@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contacts</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="javascript" type="text/javascript" href="./js/app.js">
+</head>
+<body>
+	<header>
+		<h1>Contacts</h1>
+	</header>
+	<section class="side-by-side">
+		<section class="add-contact">
+			<h2>Add a contact:</h2>
+			<form>
+				<div>
+					<label for="first-name">First name</label><br>
+					<input type="text" id="first-name"><br>
+				</div>
+				<div>
+					<label for="last-name">Last name</label><br>
+					<input type="text" id="last-name"><br>
+				</div>
+				<div>
+					<label for="phone-number">Phone Number</label><br>
+					<input type="text" id="phone-number"><br>
+				</div>
+				<div>
+					<label for="street">Street</label><br>
+					<input type="text" id="street"><br>
+				</div>
+				<div>
+					<label for="city">City</label><br>
+					<input type="text" id="city"><br>
+				</div>
+				<div>
+					<label for="state">State</label><br>
+					<input type="text" id="state"><br>
+				</div>
+				<input id="sub" type="submit" value="Add">
+			</form>
+		</section>
+		<section class="show-contact">
+		</section>
+	</section>
+	<section class="list-contact">
+		<h2>Contacts:</h2>
+		<ul></ul>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>
