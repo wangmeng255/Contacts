@@ -65,3 +65,18 @@ h1 {
 	text-decoration: none;
 	color: #216288;
 }
+.show-contact {
+	font-weight: 600;
+}
+.show-contact > ul {
+	list-style-type: none;
+}
+.show-contact > ul > li{
+	margin: 2% 0;
+}
+.show-contact > ul > ul {
+	list-style-type: disc;
+}
+.show-contact > ul > ul > li {
+	margin: 2% 0 2% 10%;
+}
