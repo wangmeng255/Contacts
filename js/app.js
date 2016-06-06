@@ -32,7 +32,7 @@ $(document).ready(function() {
 			}
 			persons.push(person);
 			$(".add-contact input[type='text']").each(function() {
-				$(this).val="";
+				$(this).val("");
 				if($(this).attr("name").match(/\d$/)) {
 						$(this).siblings().each(function() {
 							$(this).remove()
