@@ -26,28 +26,60 @@ h1 {
 .add-contact div {
 	margin: 2% 0;
 }
-.add-contact input {
+.add-contact input[type="text"] {
 	margin: 0.5% 0;
-	width: 20rem;
+	width: 22rem;
 	font-size: 1.1rem;
 }
-#sub {
-	width: 3rem;
+#sub, #add-address {
+	width: 7rem;
 	margin-top: 2%;
 	margin-bottom: 3%;
+	cursor: pointer;
+	padding: 7px 10px;
+	text-align: center;
+	text-decoration: none;
+	font: 12px Arial, Helvetica, sans-serif;
+	border-radius: 2px;
+}
+#sub {
+	background-color: #999999;
+    color: #000000;
+    border: 1px solid #858585;   
+}
+#add-address {
+	background-color: #216288;
+	color: #FFFFFF;
+    border: 1px solid #17445E;
+}
+#add-phone-number, .del-phone-number, .del-address {
+	width: 8rem;
+	margin-left: 2%;
+	margin-bottom: 1%;
 	background-color: #216288;
     border: 1px solid #17445E;
     cursor: pointer;
     color: #FFFFFF;
-    padding: 5px 10px;
+    padding: 7px 10px;
     text-align: center;
     text-decoration: none;
     font: 12px Arial, Helvetica, sans-serif;
     border-radius: 2px;
 }
-#sub:hover {
-    background: linear-gradient(bottom, #2D77A2 5%, #337DA8 100%);
+.del-phone-number {
+	width: 10rem;
+}
+.del-address {
+	width: 7rem;
+}
+#add-address:hover, #add-phone-number:hover,
+.del-phone-number:hover, .del-address:hover {
+    background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
     background-color: #28739E;
+}
+#sub:hover {
+	background: linear-gradient(to bottom, #a3a3a3 5%, #adadad 100%);
+    background-color: #8c8c8c;
 }
 .list-contact {
 	margin-left: 1%;
@@ -67,6 +99,7 @@ h1 {
 }
 .show-contact {
 	font-weight: 600;
+	margin-left: 3%;
 }
 .show-contact > ul {
 	list-style-type: none;
